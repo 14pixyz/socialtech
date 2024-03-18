@@ -14,7 +14,7 @@ PC用スタイル
     /* 横幅設定 */
     body {
         max-width: 1080px;
-        min-width: 960px;
+        min-width: 900px;
         margin: 0 auto 0 auto;
     }
 
@@ -70,7 +70,7 @@ PC用スタイル
 
     #main-message > h1 {
         font-size: 60px;
-        font-weight: 28px;
+        font-weight: bold;
         margin: 100px 0 0 50px;
     }
 
@@ -94,7 +94,7 @@ PC用スタイル
     }
 
     h2::after {
-        content: url(images/line.png);
+        content: url("images/line.png");
         margin-left: 10px;
     }
 
@@ -162,7 +162,7 @@ PC用スタイル
     #product-right > div {
         position: relative;
         height: 480px;
-        margin-right: 20px;
+        margin-left: 20px;
     }
 
     /* 画像 */
@@ -403,7 +403,7 @@ PC用スタイル
         border-right: 0;
         border-bottom-width: 1px;
         border-bottom-color: #707070;
-        border-bottom-style: solid;
+        /* border-bottom-style: solid; */
         background-color: #fafafa;
         width: 400px;
         height: 56px;
@@ -564,6 +564,7 @@ PC用スタイル
     .fivegoals-number {
         color: #2710d5;
         font-size: 48px;
+        font-weight: bold;x
         margin: 0;
     }
 
@@ -573,6 +574,90 @@ PC用スタイル
     }
 
     .fivegoals-p {
+        margin: 0;
+    }
+
+    /* プロダクトページ */
+    #product-main {
+        height: 496px;
+        width: 100%;
+        background-image: url("images/product/product-main.png");
+        background-repeat: no-repeat;
+        background-position-y: center;
+    }
+    #product-title {
+        background-color: #2710d5;
+        width: 368px;
+        color: #ffffff;
+        height: 496px;
+        border-radius: 0 248px 248px 0;
+        position: relative;
+    }
+    #product-title > h1 {
+        position: absolute;
+        top: 0;
+        left: 100;
+        font-size: 80px;
+    }
+    #product-title > span {
+        position: absolute;
+        top: 200px;
+        left: 100px;
+        font-size: 26px;
+    }
+    #product-title > div {
+        position: absolute;
+        top: 350px;
+        left: 100px;
+        font-size: 16px;
+    }
+
+    /* セクション１ */
+    .product-section1 {
+        position: relative;
+        margin: 20px;
+        height: 340px;
+    }
+    .product-section1 > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 450px;
+        margin: 0 40px 30px 0;
+        border-radius: 0 432px 0 0;
+    }
+    .product-section1 > div {
+        position: absolute;
+        top: 0;
+        left: 480px;
+    }
+    /* セクション２ */
+    .product-section2 {
+        position: relative;
+        margin: 20px;
+        height: 340px;
+    }
+    .product-section2 > img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 450px;
+        margin: 0 0 30px 40px;
+        border-radius: 432px 0 0 0;
+    }
+    .product-section2 > div {
+        width: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .product-h2 {
+        color: #2710d5;
+        font-size: 24px;
+        margin: 0;
+    }
+    .product-h3 {
+        font-size: 28px;
         margin: 0;
     }
 }
@@ -645,7 +730,7 @@ PC用スタイル
         margin: 0 20px 0 20px;
         height: 44px;
         font-size: 16px;
-        background-image: url(images/arrow.png);
+        background-image: url("images/arrow.png");
         background-repeat: no-repeat;
         background-position: right top;
     }
@@ -695,7 +780,7 @@ PC用スタイル
 
     /* 見出し */
     h2::after {
-        content: url(images/line.png);
+        content: url("images/line.png");
         margin-left: 10px;
     }
     h3 {
@@ -916,7 +1001,7 @@ PC用スタイル
         background-color: #fafafa;
         border-bottom-color: #707070;
         border-bottom-width: 1px;
-        border-style: solid;
+        border-bottom-style: solid;
         min-width: 300px;
         width: 100%;
     }
@@ -951,7 +1036,7 @@ PC用スタイル
         text-decoration: none;
         margin: 0 20px 30px 0;
         display: block;
-        background-image: url(images/arrow.png);
+        background-image: url("images/arrow.png");
         background-repeat: no-repeat;
         background-position: right top;
     }
@@ -977,6 +1062,165 @@ PC用スタイル
         margin-top: 30px;
         color: #ffffff;
     }
+
+    /* mission.html用スタイル */
+    /* ミッションのメインビジュアル */
+    #mission-main {
+        height: 256px;
+        width: 100%;
+        background-image: url("images/mission/mission-main.png");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: auto 208px;
+    }
+    #mission-title {
+        background-color: #2710d5;
+        width: 136px;
+        color: #ffffff;
+        height: 256px;
+        border-radius: 0 248px 248px 0;
+        position: relative;
+    }
+    #mission-title > h1 {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        font-size: 40px;
+    }
+    #mission-title > span {
+        position: absolute;
+        top: 110px;
+        left: 20px;
+        font-size: 18px;
+    }
+    #mission-title > div {
+        position: absolute;
+        top: 180px;
+        left: 20px;
+        font-size: 13px;
+    }
+    /* ミッションページ　S2DGSの設定 */
+    #mission-s2dgs {
+        margin: 20px;
+    }
+    .mission-h2 {
+        color: #2710d5;
+        font-size: 38px;
+        margin: 0px;
+    }
+    .mission-h2::after {
+        content: none;
+    }
+    #mission-s2dgs > img {
+        width: 100%;
+    }
+    /* ミッションページ　5Goalsの設定 */
+    #mission-5goals {
+        margin: 20px;
+    }
+
+    #mission-5goals > div > div {
+        margin-bottom: 40px;
+    }
+
+    #s2dgs-image {
+        width: 100%;
+    }
+    .fivegoals-image-right {
+        margin: 20px auto 20px auto;
+        display: block;
+    }
+
+    .fivegoals-image-left {
+        margin: 20px auto 20px auto;
+        display: block;
+    }
+
+    .fivegoals-number {
+        color: #2710d5;
+        font-size: 48px;
+        margin: 0;
+    }
+
+    .fivegoals-h3 {
+        font-size: 28px;
+        margin: 0;
+    }
+    .fivegoals-p {
+        margin: 0;
+    }
+
+    /* プロダクトページ */
+    #product-main {
+        height: 256px;
+        width: 100%;
+        background-image: url("images/product/product-main.png");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: auto 208px;
+    }
+    #product-title {
+        background-color: #2710d5;
+        width: 136px;
+        color: #ffffff;
+        height: 256px;
+        border-radius: 0 248px 248px 0;
+        position: relative;
+    }
+    #product-title > h1 {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        font-size: 40px;
+    }
+    #product-title > span {
+        position: absolute;
+        top: 110px;
+        left: 20px;
+        font-size: 18px;
+    }
+    #product-title > div {
+        position: absolute;
+        top: 180px;
+        left: 20px;
+        font-size: 13px;
+    }
+    .product-section1 {
+        margin: 20px;
+    }
+
+    .product-section1 > img {
+        width: 100%;
+        border-radius: 0 300px 0 0;
+    }
+    
+    .product-section2 {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-section2 > img {
+        order: 1;
+        width: 100%;
+        border-radius: 300px 0 0 0;
+    }
+
+    .product-section2 > div {
+        order: 2;
+    }
+
+    .product-h2 {
+        color: #2710d5;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .product-h3 {
+        font-size: 28px;
+        margin: 0;
+    }
 }
+
 
 
